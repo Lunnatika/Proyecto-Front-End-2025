@@ -1,1 +1,0 @@
-Estos son los primeros pasos creando a estructura basica de HTML en mi clase numero 1 
