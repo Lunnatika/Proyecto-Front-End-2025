@@ -1,41 +1,54 @@
+<!--se coloca ! +tab para generar una etiqueta-->
+<!-- el simbolo < + !+-- y -- + > se usa para hacer los comentarios en html-->
+<!-- Ctrl + s  se usa para guardar-->
+<!--para ver la web damos clic derecho y elegimos open with live server -->
 <html lang="es"> 
-<head> 
+<head> <!-- encabezado o head -->
 <meta charset="UTF-8"> 
 <meta name="viewport" content="width=device-width, 
 initial-scale=1.0"> 
 <title>Mi Primer Proyecto</title> 
 </head> 
-<body> 
+<body> <!-- se usa para dar estructura a la web es lo que se va a mostrar si escribimo alo que esta listado y apretamos tab se auto completa-->
 <header> 
-    <img src="logo.png" alt="Logo del Proyecto" width="150">
-    <h1>Bienvenidos a Mi Proyecto</h1> 
-    <h2>Este subtitulo esta en proseso de gusanisacion</h2> 
+    <img src="logo.png" alt="Logo del Proyecto" width="150"><!--se utiliza para insertar imagenes-->
+    <h1>Bienvenidos a Mi Proyecto</h1> <!--se usa para titulo-->
+    <h2>Este subtitulo esta en proseso de gusanisacion</h2> <!-- se usa para subtitulos-->
 </header> 
 <nav> 
-    <ul>
-        <li><a href="#inicio">Inicio</a></li>
+    <ul><!--se usa para clear listas-->
+        <li><a href="#inicio">Inicio</a></li><!--se usa para agregar items a la lista-->
         <li><a href="#productos">Productos</a></li>
         <li><a href="#contacto">Contacto</a></li>
     </ul>
 </nav> 
 <main> 
     <p>Aun no se que voy a poner aqui, y el gusano tampoco sabe
-     <strong>El contenido</strong>, <em>aun esta en proseso</em>, es decir... <s>no hay contenido</s>.</p> 
-    <section>
+     <strong>El contenido</strong>, <em>aun esta en proseso</em>, es decir... <s>no hay contenido</s>.</p> <!--se usa para crear un parrafo-->
+     <form action="https://formspree.io/f/xblgzndb" method="POST"> 
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu 
+        nombre"> <br> <!-- usamos la etiqueta <br> para hacer un salto de linea-->
+        <input type="email" name="email" id="email" placeholder="Escribe tu 
+        email"> 
+        <textarea name="mensaje" id="mensaje" rows="4" cols="50" 
+        placeholder="Escribe tu mensaje"></textarea> <br>
+        <button type="submit">Enviar</button> 
+        </form>
+     <section>
         <h2>Una imagen del gusano en una manzana</h2>
         <img src="manzanagusano.png" alt="Imagen del guzano en una manzana" width="300">
     
         <h2>Video de mi situacion actual</h2>
-        <video width="400" controls>
+        <video width="400" controls><!--lo suamos para agregar videos-->
             <source src="video.mp4" type="video/mp4">
         Tu navegador no soporta la reproducción de video.
         </video>
         <p>Seguimos pensando que hacer y nos divertimos</p>
     </section>
 </main> 
-<footer> 
+<footer> <!--se usa para agregar datos de contacto-->
 <p>Cualquier duda se pueden contactar con migo por discor o Whatsapp.</p> 
 </footer> 
 </body> 
 </html>
-<a href="https://www.ejemplo.com">Visita nuestro sitio web</a> 
+<a href="https://www.ejemplo.com">Visita nuestro sitio web</a> <!--Lo usamos para cargar enlases de referencia-->
